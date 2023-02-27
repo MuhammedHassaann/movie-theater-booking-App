@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="32dp">
+
+    <com.vipulasri.ticketview.TicketView
+        android:id="@+id/ticketView"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/tickets"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:ticketBackgroundBeforeDivider="@drawable/qrcode"
+        app:ticketCornerRadius="15dp"
+        app:ticketCornerType="scallop"
+        app:ticketDividerDashGap="5dp"
+        app:ticketDividerType="dash"
+        app:ticketDividerWidth="4dp"
+        app:ticketOrientation="horizontal"
+        app:ticketScallopPositionPercent="65"
+        app:ticketScallopRadius="10dp"
+        app:ticketShowBorder="false"
+        app:ticketShowDivider="true"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/ticket_title_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="90dp"
+        android:text="Title"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ticketView"
+        app:layout_constraintStart_toStartOf="@+id/ticketView" />
+
+    <TextView
+        android:id="@+id/ticket_price_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="90dp"
+        android:text="50 $"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ticketView"
+        app:layout_constraintEnd_toEndOf="@+id/ticketView" />
+
+    <TextView
+        android:id="@+id/ticket_customerName_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="Mohammed"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/ticketView"
+        app:layout_constraintEnd_toEndOf="@+id/ticketView"
+        app:layout_constraintStart_toStartOf="@+id/ticketView" />
+
+    <TextView
+        android:id="@+id/ticket_seat_fixed_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="40dp"
+        android:text="Seat"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ticketView"
+        app:layout_constraintEnd_toEndOf="@+id/ticketView" />
+
+    <TextView
+        android:id="@+id/ticket_time_fixed_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="40dp"
+        android:text="Time"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ticketView"
+        app:layout_constraintStart_toStartOf="@+id/ticketView" />
+
+    <TextView
+        android:id="@+id/ticket_time_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/ticket_time_fixed_txt"
+        app:layout_constraintStart_toStartOf="@+id/ticket_time_fixed_txt"
+        app:layout_constraintTop_toBottomOf="@+id/ticket_time_fixed_txt" />
+
+    <TextView
+        android:id="@+id/ticket_seat_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/ticket_seat_fixed_txt"
+        app:layout_constraintStart_toStartOf="@+id/ticket_seat_fixed_txt"
+        app:layout_constraintTop_toBottomOf="@+id/ticket_seat_fixed_txt" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

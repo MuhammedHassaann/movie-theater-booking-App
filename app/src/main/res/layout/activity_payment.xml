@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.PaymentActivity"
+    android:background="@drawable/paymentbackground">
+
+    <ImageView
+        android:id="@+id/creditCard_ImageView"
+        android:layout_width="343dp"
+        android:layout_height="216dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_payment_txt"
+        app:srcCompat="@drawable/creditcard" />
+
+    <TextView
+        android:id="@+id/add_payment_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Add Payment Method"
+        android:textColor="#7C4DFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/creditCardNumber_ED"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint=" Credit Card Number"
+        android:lines="1"
+        android:inputType="number"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movieTitle_txt" />
+
+    <EditText
+        android:id="@+id/CVV_ED"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint=" CVV"
+        android:inputType="number"
+        android:paddingStart="10dp"
+        app:layout_constraintStart_toStartOf="@+id/creditCardNumber_ED"
+        app:layout_constraintTop_toBottomOf="@+id/creditCardNumber_ED" />
+
+    <EditText
+        android:id="@+id/expireDate_ED"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint=" Expire Date"
+        android:inputType="number"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/creditCardNumber_ED"
+        app:layout_constraintTop_toBottomOf="@+id/creditCardNumber_ED" />
+
+    <android.widget.Button
+        android:id="@+id/Buy_Ticket_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button"
+        android:text="Buy Ticket"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/total_txt" />
+
+    <TextView
+        android:id="@+id/movieTitle_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/creditCard_ImageView"
+        app:layout_constraintStart_toStartOf="@+id/creditCard_ImageView"
+        app:layout_constraintTop_toBottomOf="@+id/creditCard_ImageView" />
+
+    <TextView
+        android:id="@+id/total_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="32dp"
+        android:text="Total : "
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/CVV_ED"
+        app:layout_constraintStart_toStartOf="@+id/CVV_ED"
+        app:layout_constraintTop_toBottomOf="@+id/CVV_ED" />
+
+    <TextView
+        android:id="@+id/moviePrice_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="75dp"
+        android:text="20 $"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/total_txt"
+        app:layout_constraintEnd_toEndOf="@+id/expireDate_ED"
+        app:layout_constraintStart_toStartOf="@+id/expireDate_ED"
+        app:layout_constraintTop_toTopOf="@+id/total_txt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/drawable/background.xml" value="0.19583333333333333" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/drawable/button.xml" value="0.19583333333333333" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/drawable/buy_button.xml" value="0.19583333333333333" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/drawable/custom_cardview.xml" value="0.19583333333333333" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/drawable/edit_text.xml" value="0.19583333333333333" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/drawable/linear_background.xml" value="0.19583333333333333" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/drawable/linear_style.xml" value="0.19583333333333333" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/drawable/simple_edittext.xml" value="0.19583333333333333" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/drawable/text.xml" value="0.19583333333333333" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout-v31/root_tickets.xml" value="0.1" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/activity_action.xml" value="0.264" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/activity_add_movie.xml" value="0.3333333333333333" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/activity_admin.xml" value="0.22" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/activity_all_movies.xml" value="0.1796875" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/activity_animation.xml" value="0.1796875" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/activity_comedy.xml" value="0.1796875" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/activity_drama.xml" value="0.1796875" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/activity_edit_movie.xml" value="0.1796875" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/activity_fantasy.xml" value="0.1796875" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/activity_genre.xml" value="0.30423280423280424" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/activity_horror.xml" value="0.1796875" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/activity_payment.xml" value="0.22" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/activity_register.xml" value="0.1796875" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/activity_romance.xml" value="0.1796875" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/activity_science_fiction.xml" value="0.1796875" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/activity_tickets.xml" value="0.1796875" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/activity_user_info.xml" value="0.3333333333333333" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/activity_user_main.xml" value="0.4466666666666667" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/edit_dialog.xml" value="0.1796875" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/root_allmovies.xml" value="0.22" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/root_editmovies.xml" value="0.3333333333333333" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/root_movies.xml" value="0.3333333333333333" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/root_ticket.xml" value="0.3333333333333333" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/root_tickets.xml" value="0.1796875" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/layout/text.xml" value="0.1796875" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/mipmap-anydpi-v26/icon_launcher.xml" value="0.19583333333333333" />
+        <entry key="..\:/Mohammed/Coding/DataBaseProject/app/src/main/res/mipmap-anydpi-v26/icon_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

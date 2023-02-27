@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/custom_cardview"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/Movie_Title_ET_dialog"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/edit_text"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="  Title"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:drawableStart="@drawable/title"
+        app:layout_constraintCircleRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Movie_Rating_ET_dialog"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/edit_text"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint=" Rating"
+        android:inputType="textPersonName"
+        android:paddingStart="5dp"
+        android:drawableStart="@drawable/rating"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Movie_Title_ET_dialog" />
+
+    <EditText
+        android:id="@+id/Movie_Genre_ET_dialog"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/edit_text"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint=" Genre"
+        android:inputType="textPersonName"
+        android:paddingStart="5dp"
+        android:drawableStart="@drawable/genreedittext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Movie_Rating_ET_dialog" />
+
+    <android.widget.Button
+        android:id="@+id/editButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/button"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:text="Edit"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Movie_Price_ET_dialog" />
+
+    <android.widget.Button
+        android:id="@+id/cancelButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button"
+        android:text="Cancel"
+        android:textColor="#FFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Movie_Price_ET_dialog" />
+
+    <EditText
+        android:id="@+id/Movie_Year_ET_dialog"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/edit_text"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint=" Year"
+        android:paddingStart="5dp"
+        android:drawableStart="@drawable/year"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Movie_Genre_ET_dialog" />
+
+    <EditText
+        android:id="@+id/Movie_Price_ET_dialog"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/edit_text"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint=" Price"
+        android:paddingStart="5dp"
+        android:drawableStart="@drawable/price"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Movie_Year_ET_dialog" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
